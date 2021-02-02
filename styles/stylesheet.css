@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(255, 217, 50);
+}
+
+h1 {
+  color: rgb(130, 0, 255);
+}
+
+h2 {
+  color: rgb(100, 0, 255);
+}
+
+img {
+  width: 25%;
+  border: 2px dotted purple;
+}
+
+.project-one {
+  padding: 20px;
+  border: 5px solid purple;
+  border-radius: 10px;
+}
+
+.project-one h3 {
+  text-align: center;
+  color: purple;
+}
+
+.project-two {
+  padding: 20px;
+  border: 10px solid blue;
+  border-radius: 15px;
+}
+.project-two h3 {
+  text-align: center;
+  color: blue;
+}
+
+ul {
+  list-style-type: square;
+  margin-bottom: 10px;
+}
+
+li {
+  margin-top: 15px;
+}
+
+#me {
+  font-size: 25px;
+  color: green;
+}
+
+footer {
+  margin-left: 45%;
+}
