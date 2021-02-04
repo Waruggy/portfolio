@@ -13,36 +13,80 @@ h2 {
 img {
   width: 25%;
   border: 2px dotted purple;
+  margin-left: 35%;
+}
+
+img:hover {
+  width: 30%;
 }
 
 .project-one {
   padding: 20px;
   border: 5px solid purple;
   border-radius: 10px;
+  width: 100%;
 }
 
 .project-one h3 {
   text-align: center;
   color: purple;
+  background-color: silver;
 }
 
 .project-two {
   padding: 20px;
   border: 10px solid blue;
   border-radius: 15px;
+  width: 100%;
 }
+
 .project-two h3 {
   text-align: center;
   color: blue;
+  background-color: red;
+}
+
+.link {
+  font-weight: bold;
+}
+
+.link:hover {
+  color: pink;
+  font-size: 120%;
+  text-decoration: none;
 }
 
 ul {
-  list-style-type: square;
+  list-style-type: none;
   margin-bottom: 10px;
+  border-left: 5px solid red;
+  background-color: white;
+  padding-left: 10%;
+  width: 40%;
 }
 
 li {
-  margin-top: 15px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+li a:hover {
+  background-color: black;
+  font-size: 110%;
+  color: turquoise;
+  text-decoration: none;
+}
+
+#myself {
+  padding: 20px;
+  border: 15px solid green;
+  border-radius: 20px;
+  background-color: yellow;
+}
+
+#myself h2 {
+  text-align: center;
+  color: green;
 }
 
 #me {
@@ -50,6 +94,17 @@ li {
   color: green;
 }
 
+nav {
+  margin: 18px;
+  background-color: white;
+}
+
+nav a:hover {
+  background-color: orange;
+  font-size: 120%;
+  text-decoration: none;
+}
+
 footer {
-  margin-left: 45%;
+text-align: center;
 }
