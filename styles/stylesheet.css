@@ -4,10 +4,16 @@ body {
 
 h1 {
   color: rgb(130, 0, 255);
+  font-family: "Stick", sans-serif;
 }
 
 h2 {
   color: rgb(100, 0, 255);
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+h3 {
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 img {
@@ -18,6 +24,25 @@ img {
 
 img:hover {
   width: 30%;
+}
+
+.fab {
+  font-size: 80px;
+}
+
+.fas {
+  font-size: 100px;
+}
+
+.fa-dog {
+  color: gray;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .project-one {
