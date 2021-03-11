@@ -20,6 +20,7 @@ img {
   width: 25%;
   border: 2px dotted purple;
   margin-left: 35%;
+  transition: width 3s;
 }
 
 img:hover {
@@ -93,6 +94,14 @@ ul {
 li {
   padding-top: 15px;
   padding-bottom: 10px;
+}
+
+li:nth-child(odd) {
+  background: cyan;
+}
+
+li:nth-child(even) {
+  background: red;
 }
 
 li a:hover {
