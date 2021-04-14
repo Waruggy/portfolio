@@ -142,3 +142,33 @@ nav a:hover {
 footer {
 text-align: center;
 }
+
+/*Form Styling*/
+
+form {
+  border: 3px solid red;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: tan;
+}
+
+label {
+  color: blue;
+  display: block;
+  margin-top: 15px;
+}
+
+input {
+  color: white;
+  background-color: black;
+  border-bottom: 3px solid white;
+}
+
+input[type=submit] {
+  width: 100px;
+  border-bottom: 2px solid crimson;
+  border-radius: 3px;
+  background-color: gray;
+  color: crimson;
+  margin-top: 8px;
+}
